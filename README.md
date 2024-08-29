@@ -15,18 +15,12 @@ Visualization Tools: Includes scripts for visualizing model performance metrics,
 Installation
 
 ##  To clone and run this project, you'll need Git and Python installed on your machine. ##
+
 ``` bash
 # Clone the repository
-git clone https://github.com/yourusername/your-repository-name.git
-
-# Navigate into the project directory
-cd your-repository-name
-
-# Install required Python packages
-pip install -r requirements.txt
+https://github.com/RamyasriManyala/HumanEmotionDetection.git
 
 ```
-
 
 ## Usage ##
 
