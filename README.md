@@ -12,7 +12,7 @@ Transfer Learning: The model utilizes transfer learning by fine-tuning a pre-tra
 Real-Time Detection: The system is capable of real-time facial expression recognition, making it suitable for applications in dynamic environments.
 Visualization Tools: Includes scripts for visualizing model performance metrics, confusion matrix, and PCA plots.
 
-Installation
+## Installation ##
 
 ##  To clone and run this project, you'll need Git and Python installed on your machine. ##
 
@@ -22,63 +22,16 @@ https://github.com/RamyasriManyala/HumanEmotionDetection.git
 
 ```
 
-## Usage ##
+- The dataset taken was **"fer2013"**. It can be downloaded through the link "[https://github.com/npinto/fer2013](https://www.kaggle.com/datasets/msambare/fer2013)". Image augmentation was performed on this data.
 
-- Training the Model
-To train the model, execute the following command. Ensure you have the FER-2013 dataset downloaded and placed in the appropriate directory.
 
-```bash
-
-python train_model.py --dataset /path/to/fer2013
-
-```
-- Evaluating the Model
-
-To evaluate the model's performance on the test dataset:
-
-```bash
-
-python evaluate_model.py --model /path/to/saved_model.h5 --dataset /path/to/fer2013/test
-
-```
-
-- Real-Time Emotion Detection
-For real-time emotion detection using your webcam:
-```bash
-
-python real_time_detection.py --model /path/to/saved_model.h5
-```
-- Visualization
-To visualize the training process, including accuracy and loss curves, confusion matrix, and PCA of the dataset:
-
-```bash
-
-python visualize_results.py --model /path/to/saved_model.h5 --dataset /path/to/fer2013/test
-
-```
-### Directory Structure ###
-```bash
-
-.
-├── README.md
-├── train_model.py
-├── evaluate_model.py
-├── real_time_detection.py
-├── visualize_results.py
-├── data/
-│   ├── train/
-│   ├── test/
-│   └── fer2013.csv
-├── models/
-│   ├── vgg16_finetuned.h5
-├── logs/
-│   ├── training_log.csv
-└── requirements.txt
-
-```
 ## Model  ##
 
 The model achieved an accuracy of approximately 55% on the test dataset, with higher precision in detecting distinct emotions such as happiness and surprise. However, the model showed challenges in distinguishing between emotions like sadness and neutrality. The confusion matrix and other performance metrics are available in the visualization results.
+
+#### The model will be able to detect 7 types of emotions:-
+ #####  Angry , Sad ,  Neutral ,  Disgust ,  Surprise ,  Fear  , and   Happy
+
 
  ## Future Work ##
 
