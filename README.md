@@ -1,5 +1,9 @@
 # Sentiment Analysis through Facial Expression Recognition Using Machine Learning
 
+----------
+ <img src="Results/PredictedResult.png" alt="index1"/>
+
+
 ## Project Overview ##
 
 This project focuses on the development of a facial expression recognition system using Convolutional Neural Networks (CNNs), specifically leveraging the VGG16 architecture. The model is trained to detect and classify seven different facial expressions: anger, disgust, fear, happiness, sadness, surprise, and neutrality. The system is designed with real-time applications in mind, particularly in the domains of mental health monitoring, customer service, and human-computer interaction.
@@ -22,7 +26,7 @@ https://github.com/RamyasriManyala/HumanEmotionDetection.git
 
 ```
 
-- The dataset taken was **"fer2013"**. It can be downloaded through the link "[https://github.com/npinto/fer2013](https://www.kaggle.com/datasets/msambare/fer2013)". Image augmentation was performed on this data.
+- The dataset taken was **"FER 2013"**. It can be downloaded through the link "[https://github.com/npinto/fer2013](https://www.kaggle.com/datasets/msambare/fer2013)". Image augmentation was performed on this data.
 
 
 ## Model  ##
@@ -32,6 +36,15 @@ The model achieved an accuracy of approximately 55% on the test dataset, with hi
 #### The model will be able to detect 7 types of emotions:-
  #####  Angry , Sad ,  Neutral ,  Disgust ,  Surprise ,  Fear  , and   Happy
 
+ ### For final code of Emotion Detection Code
+
+ ### Real time emotion detection is also shown in code ###
+
+Refer to the notebook /HumanEmotionDetection_Finalcommit.ipynb.<br/>
+
+### Results are kept in sepearate folder can access through ###
+
+Refer to the notebook /Results <br/>
 
  ## Future Work ##
 
