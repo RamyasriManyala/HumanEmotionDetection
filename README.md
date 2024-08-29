@@ -50,10 +50,13 @@ Refer to the notebook /Results <br/>
 
 ### Future improvements could include: ###
 
-Expanding the dataset to include more diverse facial expressions and demographics.
-Implementing advanced architectures such as Capsule Networks to improve subtle emotion detection.
-Integrating additional modalities such as voice or physiological signals for multimodal emotion recognition.
-License
+- Expanding the Dataset: Incorporate more diverse facial expressions and demographics to improve model generalization.
+- Advanced Architectures: Experiment with advanced architectures like Capsule Networks to improve detection of subtle emotions.
+- Multimodal Emotion Recognition: Integrate additional modalities such as voice or physiological signals to create a more comprehensive emotion recognition system.
+- Real-Time Deployment: Further optimize the model for deployment in real-time systems and test in dynamic environments.
+
+
+### License ###
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
